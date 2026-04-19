@@ -1,6 +1,7 @@
 from apscheduler.schedulers.background import BackgroundScheduler
 from telegram import Bot
 import database
+import sqlite3  # Добавьте эту строку
 
 scheduler = BackgroundScheduler()
 
