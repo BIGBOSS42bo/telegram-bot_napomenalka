@@ -6,7 +6,7 @@ import scheduler
 
 logging.basicConfig(level=logging.INFO)
 
-TOKEN = "YOUR_BOT_TOKEN"
+TOKEN = "8605114997:AAG_II-LnXBlABH_M-0IryIjotplhxJab58"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user = update.effective_user
